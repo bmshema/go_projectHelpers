@@ -15,7 +15,7 @@ show_help() {
     echo "Usage: $0 -n NAME [-d DOMAIN]"
     echo ""
     echo "Options:"
-    echo "  -d DOMAIN    The project repo domain. Default is '$DOMAIN'."
+    echo "  -d DOMAIN    The project repo domain. (If different than what was set globally)"
     echo "  -n NAME      The project name. This option is required."
     echo ""
     echo "Example:"
